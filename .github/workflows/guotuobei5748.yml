@@ -2,23 +2,22 @@ name: guotuobei5748
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 5/6 * * *'
+    - cron: '42 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: guotuobei5748
         env:
-          om943: ${{ secrets.om943 }}
+          hmxuq1: ${{ secrets.hmxuq1 }}
         run: |
-          echo $om943 | jq -r .iwya9817 | /bin/bash
-          echo $rw6856 | jq -r .erkxm67616 | /bin/bash
-          echo $vbqpx6 | jq -r .yuizb7 | /bin/bash
-          echo $kjgp744 | jq -r .jsf46275 | /bin/bash
-          echo $tlwg221 | jq -r .qa62283 | /bin/bash
-          echo $ew987 | jq -r .k81 | /bin/bash
-          echo $wkj715 | jq -r .od9 | /bin/bash
-          echo $iko5822 | jq -r .fmzy619 | /bin/bash
+          echo $hmxuq1 | jq -r .wpvq4 | /bin/bash
+          echo $xxqsw21 | jq -r .fuju2518 | /bin/bash
+          echo $s53239 | jq -r .o29760 | /bin/bash
+          echo $q03831 | jq -r .agogs3 | /bin/bash
+          echo $und548 | jq -r .fvmdx813 | /bin/bash
+          echo $damcd6041 | jq -r .vnwx77780 | /bin/bash
 
