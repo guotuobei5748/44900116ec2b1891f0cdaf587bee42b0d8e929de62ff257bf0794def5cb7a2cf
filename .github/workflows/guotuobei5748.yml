@@ -1,23 +1,22 @@
 name: guotuobei5748
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 4/6 * * *'
+    - cron: '25 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: guotuobei5748
         env:
-          hmxuq1: ${{ secrets.hmxuq1 }}
+          ldos198: ${{ secrets.ldos198 }}
         run: |
-          echo $hmxuq1 | jq -r .wpvq4 | /bin/bash
-          echo $xxqsw21 | jq -r .fuju2518 | /bin/bash
-          echo $s53239 | jq -r .o29760 | /bin/bash
-          echo $q03831 | jq -r .agogs3 | /bin/bash
-          echo $und548 | jq -r .fvmdx813 | /bin/bash
-          echo $damcd6041 | jq -r .vnwx77780 | /bin/bash
+          echo $ldos198 | jq -r .y34252 | /bin/bash
+          echo $asqfy428 | jq -r .rylw79419 | /bin/bash
+          echo $i91 | jq -r .txrrx235 | /bin/bash
+          echo $z3957 | jq -r .qceqe60912 | /bin/bash
+          echo $xubsj7 | jq -r .ygwrm0466 | /bin/bash
 
